@@ -1,0 +1,32 @@
+{
+  "name": "wulbot",
+  "version": "1.0.0",
+  "description": "Kurulum için `npm i` çalıştırmak için `node index`.\r - [Heroku](https://dashboard.heroku.com/apps), [Repl.it](https://replit.com/) ve ya Herhangi bir hosting hizmedinde çalıştırılabilir.\r - Veritabanı olarak `quick.db` kullanılmıştır.\r - `JSON` dosylarına token yazmayınız sadece `dotenv` kullanınız.\r - Domain entegresi için hostinginizin Dns hizmeti yavaş kalıp `quick.db` hatası almanıza sebep olabilir.  [CloudFlare](https://www.cloudflare.com/) Dns hizmetini kullanabilirsiniz.",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulcato/wulbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wulcato/wulbot/issues"
+  },
+  "homepage": "https://github.com/wulcato/wulbot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "chalk": "^4.1.1",
+    "discord-player": "^4.1.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.3.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2"
+  }
+}
