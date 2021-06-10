@@ -104,4 +104,5 @@ client.on("guildCreate", (guild, msg) => {
     console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
   });
   
-  client.login(process.env.TOKEN);
+  //client.login(process.env.TOKEN);
+  client.login('ODQzOTA0ODA1MjY5NDA1Nzg3.YKKpmA.scSDBa1Up_J_yuMwaE7g0EZ83Kw');
