@@ -1,8 +1,8 @@
-
+//please check https://github.com/wulcato/guildMemberExample
 module.exports = async (client, member) => {
-  if (member.guild.id != '660426200392531968') return;
-  const channelid = '717489700776181832'; //welcome
-  const targetchannelid = '745364042629120081'; //rules 
+  if (member.guild.id != 'your main guild') return;
+  const channelid = 'welcome channel id '; //welcome
+  const targetchannelid = 'target channel id'; //rules 
   console.log(member)
 
   const message2 = `**${member.user.tag}** , Sunucudan Ayrıldı. `
